@@ -1,0 +1,224 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/ocean.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.trip {
+    color: red;
+}
+
+.tourism-card {
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.main-heading {
+    font-family: "Roboto";
+    color: orange;
+}
+
+.paragraph {
+    font-family: "Roboto";
+}
+
+.button {
+    color: white;
+    background-color: #25b1cc;
+    width: 138px;
+    height: 36px;
+    border-width: 0px;
+    border-radius: 20px;
+}
+
+.image {
+    width: 85vh;
+    height: 50vh;
+    padding: 30px;
+
+
+}
+
+.image-2 {
+    width: 85vh;
+    height: 50vh;
+    padding: 30px;
+
+}
+
+.pack2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.image3 {
+    padding: 10px;
+    margin-left: 30px;
+    height: 40vh;
+    width: 50vh;
+}
+
+.par {
+    font-size: 50px;
+    color: orange;
+    margin-top: 10px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #004286;
+}
+
+.websites {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+@media screen and (min-width:992px) {
+    .image {
+        height: 25vh;
+        width: 40vh;
+    }
+
+    .web {
+        display: flex;
+        margin-left: 20px;
+        justify-content: center;
+    }
+
+    .pack4 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .image {
+        height: 50vh;
+        width: 70%;
+    }
+
+    .web {
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .pack4 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .image {
+        width: 40vh;
+    }
+}
+
+.totalpack {
+    text-align: center;
+}
